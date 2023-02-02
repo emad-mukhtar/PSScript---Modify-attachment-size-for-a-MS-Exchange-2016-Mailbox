@@ -41,3 +41,4 @@ if ($confirm -ne "OK"){
 # Modify the MaxReceiveSize and MaxSendSize for the specified user
 Set-Mailbox $userName -MaxReceiveSize $newMaxReceiveSize'MB' -MaxSendSize $newMaxSendSize'MB'
 Write-Host "MaxReceiveSize and MaxSendSize for $userName have been successfully modified to $newMaxReceiveSize MB and $newMaxSendSize MB, respectively"
+Write-Host "You can always run the following command to check the currently configured Attachment Size: Get-Mailbox -Identity "<UserName>" | Select MaxReceiveSize, MaxSendSize"
