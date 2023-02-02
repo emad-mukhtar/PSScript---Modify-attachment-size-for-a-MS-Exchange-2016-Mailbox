@@ -22,4 +22,6 @@ You can either run the script from your computer using PowerShell to connect to 
 The script was created by Emad Mukhtar and is available under the MIT license.
 
 ## Note
-Please use this script at your own risk. Emad Mukhtar is not responsible for any damage or loss caused by the use of this script. It is highly recommended to backup your Exchange data before running this script.
+If you have any questions or feedback, please visit my GitHub at https://github.com/emad-mukhtar.
+
+Please use this script at your own risk. I'm not responsible for any damage or loss caused by the use of this script. It is highly recommended to backup your Exchange data before running this script.
